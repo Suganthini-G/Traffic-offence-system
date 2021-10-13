@@ -1,0 +1,357 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 0, 0.8)), url(tos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    max-height: fit-content;
+}
+
+
+/*shadow effects*/
+
+.top {
+    box-shadow: 0 -5px 5px -5px #333;
+}
+
+.right {
+    box-shadow: -5px 0 5px -5px #333;
+}
+
+.bottom {
+    box-shadow: 0 5px 5px -5px #333;
+}
+
+.left {
+    box-shadow: 5px 0 5px -5px #333;
+}
+
+.all {
+    box-shadow: 0 0 5px #333;
+}
+
+.user {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgba(240, 93, 93, 0), rgb(230, 155, 155)), url(bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    max-height: fit-content;
+}
+
+.officer {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgba(240, 93, 93, 0), rgba(206, 163, 21, 0.658)), url(bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    max-height: fit-content;
+}
+
+.but-yellow {
+    background-color: rgba(206, 163, 21, 0.658);
+}
+
+.but-red {
+    background-color: #ec1717c7;
+}
+
+.main {
+    height: 466px;
+    overflow-y: hidden;
+}
+
+.content {
+    max-height: 466px;
+    min-height: 466px;
+    overflow-y: auto;
+    padding: auto;
+    padding-top: 30px;
+}
+
+
+/* Styles required only for the example above */
+
+.scrollspy {
+    height: 400px;
+    position: relative;
+    overflow: auto;
+}
+
+.red {
+    background-color: rgb(114, 8, 8);
+}
+
+.fs-small {
+    font-size: 12px;
+}
+
+.form-double {
+    max-width: 700px;
+}
+
+.black-t {
+    background-color: rgb(0 0 0 / 61%);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: darkgrey;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #005aff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.text-s {
+    -webkit-text-stroke: 2px #0e0c0094;
+    text-shadow: 0px 2px 5px #1417dd;
+    color: #4a7e4e;
+}
+
+
+/* bckground try */
+
+.context {
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, ), rgb(141, 5, 5)), url(tos.jpg);
+}
+
+.tex {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.h-5 {
+    height: 50vh;
+    top: 30vh;
+    left: 40vw;
+}
+
+.area {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, ), rgb(141, 5, 5)), url(tos.jpg);
+    width: 100%;
+    height: 60vh;
+}
+
+.circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+
+.circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(233, 19, 19, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+}
+
+.circles li:nth-child(1) {
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 4s;
+}
+
+.circles li:nth-child(3) {
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 8s;
+}
+
+.circles li:nth-child(5) {
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(7) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 5s;
+}
+
+.circles li:nth-child(8) {
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 7s;
+    animation-duration: 5s;
+}
+
+.circles li:nth-child(9) {
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 3s;
+}
+
+.circles li:nth-child(10) {
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 7s;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+
+/***** Slide Right *****/
+
+.slide-right {
+    animation: 4s slide-right;
+}
+
+@keyframes slide-right {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+
+/***** Slide Left *****/
+
+.slide-left {
+    animation: 2s slide-left;
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.slide-left-2 {
+    animation: 5s slide-left;
+}
+
+@keyframes slide-left-2 {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+h1.title,
+.footer-copyright a {
+    font-family: 'Architects Daughter', cursive;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.vert-move {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+img.vert-mf {
+    -webkit-animation: mfr 5s infinite alternate;
+    animation: mfr 5s infinite alternate;
+}
+
+img.vert-mf {
+    -webkit-animation: mfr 1s infinite alternate;
+    animation: mfr 1s infinite alternate;
+}
+
+@-webkit-keyframes mfr {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-70px);
+    }
+}
+
+@keyframes mfr {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-70px);
+    }
+}
